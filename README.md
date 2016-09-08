@@ -1,2 +1,2 @@
-Magento Training Acadamy
+Magento Training Academy
 ====================
