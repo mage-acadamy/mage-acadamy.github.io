@@ -9,37 +9,31 @@ description: "Write an awesome description for your new site here. You can edit 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Ray Bogman
   pic: 1
-  position: Lead Designer
+  position: CTO / Magento Doctor
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://twitter.com/raybogman
+    - title: linkedin
+      url: https://nl.linkedin.com/in/raybogman
 
-- name: Larry Parker
+- name: Vladimir Kerkhoff
   pic: 2
-  position: Lead Marketer
+  position: Lead Developer
   social:
     - title: twitter
-      url: #
-    - title: facebook
       url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Erik van Rijn
   pic: 3
   position: Lead Developer
   social:
     - title: twitter
       url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: linkedin
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
