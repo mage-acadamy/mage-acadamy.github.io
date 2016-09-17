@@ -55,3 +55,14 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems:
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+#  - jekyll-multiple-languages
+
+#languages:          ['nl', 'en']
+#language_default:   'nl'
