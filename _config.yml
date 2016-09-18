@@ -13,6 +13,7 @@ people:
 - name: Ray Bogman
   pic: 1
   position: CTO / Magento Doctor
+  height: 225
   social:
     - title: twitter
       url: https://twitter.com/raybogman
@@ -22,6 +23,7 @@ people:
 - name: Vladimir Kerkhoff
   pic: 2
   position: Lead Developer
+  height: 225
   social:
     - title: twitter
       url: /
@@ -31,6 +33,7 @@ people:
 - name: Erik van Rijn
   pic: 3
   position: Lead Developer
+  height: 225
   social:
     - title: twitter
       url: /
