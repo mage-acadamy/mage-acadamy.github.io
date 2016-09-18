@@ -12,13 +12,7 @@
   <meta name="robots" content="{{ site.robots }}"/>
   <script type="application/ld+json">
   {% include metadata.json %}
-  </script>
-
-  {% capture include_to_scssify %}
-    {% include_relative style.css %}
-  {% endcapture %}
-  <style amp-custom>{{ include_to_scssify | scssify }}</style>
-
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
