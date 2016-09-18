@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="/assets/images/amp_favicon.png">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-
+  <meta name="robots" content="{{ site.robots }}"/>
   <script type="application/ld+json">
   {% include metadata.json %}
   </script>
