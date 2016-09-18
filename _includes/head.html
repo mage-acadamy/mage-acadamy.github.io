@@ -15,8 +15,7 @@
   </script>
 
   {% capture include_to_scssify %}
-    {% include css/bootstrap.min.css %}
-    {% include css/agency.css %}
+    {% include_relative style.css %}
   {% endcapture %}
   <style amp-custom>{{ include_to_scssify | scssify }}</style>
 
