@@ -13,9 +13,7 @@
   <script type="application/ld+json">
   {% include metadata.json %}
   </script>
-  {% capture include_to_scssify %}
-    {% include css/agency.css %}
-  {% endcapture %}
+
   <style amp-custom>
   {{ include_to_scssify | scssify | strip_newlines }}
   </style>
