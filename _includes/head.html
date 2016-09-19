@@ -14,12 +14,12 @@
   {% include metadata.json %}
   </script>
 
-  {% capture styles %}
-  {% include_relative /style.css %}
+  {% capture style %}
+  {% include style.css %}
   {% endcapture %}
 
   <style>
-  {{ styles | scssify }}
+  {{ style | scssify }}
   </style>
 
   <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
