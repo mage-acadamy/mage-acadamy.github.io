@@ -1,5 +1,5 @@
-<amp-analytics type="googleanalytics" id="googleAnalytics">
- <script type="application/json">
+<amp-analytics type="googleanalytics" id="analytics-ga">
+ <script type="application/json"
  {
    "vars": {
      "account": "{{ site.analytics.google_tracking_id }}"
