@@ -14,9 +14,16 @@
   {% include metadata.json %}
   </script>
 
-  <style amp-custom>
-  {{ include_to_scssify | scssify | strip_newlines }}
+  {% capture style %}
+  {% include style.css %}
+  {% endcapture %}
+
+  <style>
+  {{ style | scssify }}
   </style>
+
+  <link rel="stylesheet" href="{{ "/style.css" | prepend: site.baseurl }}">
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
@@ -29,5 +36,5 @@
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script async custom-element="amp-lightbox" src="https://cdn.ampproject.org/v0/amp-lightbox-0.1.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
-  {% include metadata.json %}
+  {% include analytics.json %}
 </head>
