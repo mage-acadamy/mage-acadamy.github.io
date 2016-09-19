@@ -14,12 +14,12 @@
   {% include metadata.json %}
   </script>
 
-  {% capture style %}
-  {% include style.css %}
+  {% capture styles %}
+  {% include_relative /style.css %}
   {% endcapture %}
 
   <style>
-  {{ style | scssify }}
+  {{ styles | scssify }}
   </style>
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
