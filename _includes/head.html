@@ -15,14 +15,12 @@
   </script>
 
   <style amp-custom>
-  {% include css/bootstrap.min.css %}
-  {% include css/agency.css %}
+  {% capture include_to_scssify %}
+    {% include css/bootstrap.min.css %}
+    {% include css/agency.css %}
+  {% endcapture %}
+  {{ include_to_scssify | scssify | strip_newlines }}
   </style>
-
-<<<<<<< HEAD
-=======
-  
->>>>>>> f0072a9d8308c70423cf1670381b91fa4a298d82
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
