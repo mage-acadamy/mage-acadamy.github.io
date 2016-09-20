@@ -46,7 +46,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
 }
@@ -170,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
 }
 
