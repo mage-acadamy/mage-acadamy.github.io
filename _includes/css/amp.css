@@ -178,13 +178,6 @@ blockquote>:last-child {
     margin-bottom: 0
 }
 
-.rtl blockquote {
-    border-left: 0;
-    border-right: 4px solid #f5f5f5;
-    padding-left: 0;
-    padding-right: 15px
-}
-
 code {
     font-size: 15px;
     border: 1px solid #f5f5f5;
@@ -194,10 +187,6 @@ code {
 
 code {
     padding: 1px 5px
-}
-
-.rtl code {
-    direction: ltr
 }
 
 table {
@@ -210,11 +199,6 @@ th {
     background: #F7F7F7;
     padding: 0.5rem;
     text-align: left
-}
-
-.rtl td,
-.rtl th {
-    text-align: right
 }
 
 td.col-fourty {
@@ -281,10 +265,6 @@ figure {
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
     -webkit-margin-end: 0
-}
-
-.rtl figure {
-    direction: ltr
 }
 
 .container {
@@ -659,7 +639,6 @@ section {
     width: auto;
     text-transform: none;
     white-space: nowrap;
-    background-image: url("/static/img/logo-blue.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center left
@@ -763,18 +742,12 @@ section {
     }
     .header .tab.hamburger {
         display: inline-block;
-        background-image: url("/static/img/hamburger.svg");
         background-repeat: no-repeat;
         background-size: 30px 24px;
         background-position: center center;
         width: 40px;
         height: 40px
     }
-}
-
-.rtl header .left-nav .header-title {
-    padding: 10px 50px 10px 10px;
-    background-position: center right
 }
 
 @media only screen and (max-width: 956px) {
@@ -784,13 +757,8 @@ section {
     }
 }
 
-.rtl header .alt.right {
-    text-align: left
-}
-
 amp-sidebar .hamburger {
     display: inline-block;
-    background-image: url("/static/img/hamburger.svg");
     background-repeat: no-repeat;
     background-size: 30px 24px;
     background-position: center center;
@@ -807,16 +775,6 @@ amp-sidebar .hamburger {
 amp-sidebar ul {
     list-style-type: square;
     padding-right: 1em
-}
-
-.rtl amp-sidebar ul {
-    padding-right: 0;
-    padding-left: 1em
-}
-
-.rtl amp-sidebar .hamburger {
-    right: auto;
-    left: 18px
 }
 
 .main {
@@ -872,12 +830,6 @@ amp-sidebar ul {
 .main amp-youtube,
 .main amp-iframe {
     margin: 1em 0
-}
-
-.rtl .main .content ul,
-.rtl .main .content ol {
-    margin-left: 0;
-    margin-right: 40px
 }
 
 nav {
@@ -967,37 +919,6 @@ nav ol li ol li ol li {
     list-style: decimal
 }
 
-.rtl nav {
-    border-right: 0;
-    border-left: 2px solid #E6E6E6;
-    margin-left: 30px;
-    margin-right: -20px
-}
-
-.rtl nav ul li ul,
-.rtl nav ul li ol,
-.rtl nav ol li ul,
-.rtl nav ol li ol {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 20px;
-    margin-left: 0
-}
-
-.rtl nav ul li ul li ul,
-.rtl nav ul li ul li ol,
-.rtl nav ul li ol li ul,
-.rtl nav ul li ol li ol,
-.rtl nav ol li ul li ul,
-.rtl nav ol li ul li ol,
-.rtl nav ol li ol li ul,
-.rtl nav ol li ol li ol {
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 20px;
-    padding-left: 0
-}
-
 @media only screen and (max-width: 956px) {
     .container nav {
         display: none
@@ -1047,17 +968,6 @@ nav ol li ol li ol li {
         letter-spacing: 0.04em;
         font-size: 15px
     }
-    .rtl amp-sidebar nav {
-        border-left: none;
-        margin: 0;
-        padding: 0
-    }
-    .rtl amp-sidebar nav ul {
-        padding-left: 0
-    }
-    .rtl amp-sidebar nav ul li ul {
-        margin-right: 0
-    }
     amp-sidebar nav+nav {
         background: #f9f9f9;
         padding-left: 12px;
@@ -1079,10 +989,6 @@ nav ol li ol li ol li {
     }
     amp-sidebar nav+nav li ul li a {
         font-size: 1em
-    }
-    .rtl amp-sidebar nav+nav {
-        padding-left: 0px;
-        padding-right: 12px
     }
 }
 
@@ -1370,148 +1276,6 @@ nav ol li ol li ol li {
     .col-md-2 {
         width: 16.66666667%
     }
-}
-
-div.language {
-    position: relative;
-    height: 33px;
-    width: 132px;
-    box-shadow: 0px 1px 2px #b7b7b7;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none
-}
-
-div.language amp-accordion {
-    height: 33px;
-    width: 132px
-}
-
-div.language section {
-    padding: 0
-}
-
-div.language .current {
-    background-image: url("/static/img/lang-icon.svg");
-    font-size: 1em;
-    font-weight: normal
-}
-
-div.language .current,
-div.language .others div {
-    background-color: #f7f7f7;
-    background-repeat: no-repeat;
-    background-position: 6px 6px;
-    background-size: 20px;
-    padding: 8px 10px;
-    margin: 0;
-    border: 0;
-    border-bottom: 1px solid #e7ebec;
-    box-sizing: border-box;
-    height: 33px
-}
-
-div.language .current:hover,
-div.language .others div:hover {
-    background-color: #0379c4;
-    border-bottom: 1px solid #0379c4;
-    background-image: url("/static/img/lang-icon-inverted.svg")
-}
-
-div.language .current:hover a,
-div.language .others div:hover a {
-    color: #fff;
-    text-decoration: none
-}
-
-div.language .current a,
-div.language .others div a {
-    display: block;
-    padding: 0;
-    padding-left: 24px;
-    color: #424242;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap
-}
-
-div.language .current a span,
-div.language .others div a span {
-    padding: 0;
-    background-color: transparent
-}
-
-div.language .others {
-    box-shadow: 0px 1px 2px #b7b7b7
-}
-
-.rtl .language .current a,
-.rtl .language .others div a {
-    padding-right: 26px;
-    padding-left: 0;
-    background-position: right 6px
-}
-
-header .language {
-    margin-left: 12px;
-    -ms-flex-item-align: center;
-    align-self: center
-}
-
-.rtl header .language {
-    margin-left: 0;
-    margin-right: 12px
-}
-
-amp-sidebar .language {
-    width: auto;
-    box-shadow: none;
-    height: 66px;
-    margin-bottom: 12px;
-    background: #f9f9f9
-}
-
-amp-sidebar .language amp-accordion {
-    width: auto;
-    height: 66px
-}
-
-amp-sidebar .language .current,
-amp-sidebar .language .others div {
-    background: #f9f9f9;
-    border-bottom: 1px solid #eee;
-    padding-left: 16px;
-    padding-top: 25px;
-    padding-bottom: 6px;
-    height: 66px
-}
-
-amp-sidebar .language .current.current,
-amp-sidebar .language .others div.current {
-    background: none;
-    border-bottom: 1px solid #eee
-}
-
-amp-sidebar .language .current.current span,
-amp-sidebar .language .others div.current span {
-    color: #424242
-}
-
-amp-sidebar .language .current a,
-amp-sidebar .language .others div a {
-    padding-left: 0
-}
-
-.rtl amp-sidebar .language::before {
-    left: 20px;
-    right: auto
-}
-
-.rtl amp-sidebar .language .current,
-.rtl amp-sidebar .language .others div {
-    padding-left: 0;
-    padding-right: 16px
 }
 
 pre {
