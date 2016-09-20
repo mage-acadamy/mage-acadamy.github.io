@@ -1,0 +1,38 @@
+<section class="blade blade--hero hero">
+  <div class="container">
+    <div class="row">
+      <div class="six columns">
+        <div class="intro-container">
+          <h1>Instant. <br> Everywhere.</h1>
+          <p class="intro desktop-only">For many, reading on the mobile web is a slow, clunky and frustrating experience - but it doesn’t have to be that way. The Accelerated Mobile Pages (AMP) Project is an open source initiative that embodies the vision that publishers can create mobile optimized content once and have it load instantly everywhere.</p>
+          <p class="intro mobile-only">The Accelerated Mobile Pages (AMP) Project is an open initiative that embodies the vision that publishers can create mobile optimized content once and have it load instantly everywhere.</p>
+
+          <a on="tap:my-lightbox" class="watch-video" role="button">VIEW VIDEO</a>
+
+          <div class="mobile-only">
+            <a class="go-button go-button--alt" href="/docs/get_started/about-amp.html">
+              GET STARTED
+            </a>
+          </div>
+
+          <amp-lightbox id="my-lightbox" class="lightbox" layout="nodisplay" on="tap:my-lightbox.close" role="button" tabindex="1">
+
+            <div class="lightbox__container">
+
+              <amp-youtube
+                data-videoid="WrpkFROqR0Q"
+                layout="responsive"
+                width="480" height="270">
+              </amp-youtube>
+
+            </div>
+
+            <div class="lightbox__close" on="tap:my-lightbox.close" role="button" tabindex="1"></div>
+
+          </amp-lightbox>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
