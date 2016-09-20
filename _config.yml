@@ -6,8 +6,7 @@ title: Magento Training Academy
 robots: INDEX,FOLLOW
 email: training@supportdesk.nu
 description: "Magento 2 Training Academy. Learn Magento 2 now, sign up and get started with Magento 2"
-analytics:
-- google_tracking_id: UA-66666666-6
+google_analytics: UA—XXXXXXXX-X
 
 # Team names, titles and social links
 people:

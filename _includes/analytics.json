@@ -1,6 +1,6 @@
  {
    "vars": {
-     "account": "{{ site.analytics.google_tracking_id }}"
+     "account": "{{ site.google_analytics }}"
    },
    "triggers": {
      "trackPageview": {
