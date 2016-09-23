@@ -1,36 +1,29 @@
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-            </div>
-            <div class="row">
-                {% for member in site.people %}
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <amp-img src="img/team/{{ member.pic }}.jpg" height="{{ member.height }}" width="{{ member.width }}" layout="responsive" class="img-responsive img-circle" alt=""></amp-img>
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                            <li>
-                                <a href="{{ network.url }}">
-                                    <i class="fa fa-{{ network.title }}"></i>
-                                </a>
-                            </li>
-                            {% endfor %}
+<section id="team" class="blade blade--blog">
 
-                        </ul>
-                    </div>
-                </div>
+  <div class="container">
+    <div>
+        <h1 class="blog__section-title">Our Amazing Team</h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+
+    <div class="blog">
+      {% for member in site.people %}
+      <div class="blog__tabs">
+            <amp-img src="img/team/{{ member.pic }}.jpg" height="{{ member.height }}" width="{{ member.width }}" layout="responsive" class="img-responsive img-circle" alt=""></amp-img>
+            <h3 class="blog__title">{{ member.name }}</h3>
+            <div class="blog__subtitle">{{ member.position }}</div>
+            <ul class="list-inline social-buttons">
+                {% for network in member.social %}
+                <li>
+                    <a href="{{ network.url }}">
+                        <i class="fa fa-{{ network.title }}"></i>
+                    </a>
+                </li>
                 {% endfor %}
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+            </ul>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</section>
