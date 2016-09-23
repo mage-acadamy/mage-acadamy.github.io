@@ -1,4 +1,4 @@
-<section id="team" class="blade blade--blog">
+<section class="blade blade--blog">
 
   <div class="container">
     <div>
@@ -6,15 +6,25 @@
         <p>Lorem ipsum dolor sit amet consectetur.</p>
     </div>
 
-    <div class="blog">
+    <div id="team" class="blog">
       {% for member in site.people %}
-      <div class="blog__tabs">
-        <div class="box__footer">
+      <div class="card">
+        <div class="card__image">
           <div class="box__image">
-            <amp-img src="img/team/{{ member.pic }}.jpg" height="{{ member.height }}" width="{{ member.width }}" layout="responsive" class="img-responsive img-circle" alt=""></amp-img>
+            <amp-img
+            noloading
+            height="{{ member.height }}"
+            width="{{ member.width }}"
+            alt="{{ member.name }} - {{ member.position }}"
+            layout="responsive"
+            src="img/team/{{ member.pic }}.jpg">
+            </amp-img>
           </div>
-            <h3 class="blog__title">{{ member.name }}</h3>
-            <div class="blog__subtitle">{{ member.position }}</div>
+          <div class="card__content">
+            <h3 class="card__title">{{ member.name }}</h3>
+            <p>{{ member.position }}</p>
+          </div>
+          <div class="card__action">
             <ul class="list-inline social-buttons">
                 {% for network in member.social %}
                 <li>
@@ -24,6 +34,7 @@
                 </li>
                 {% endfor %}
             </ul>
+          </div>
         </div>
       </div>
       {% endfor %}
