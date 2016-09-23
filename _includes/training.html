@@ -7,8 +7,8 @@
     </div>
 
     <div class="tablet-up">
-      {% for member in site.training %}
       <div class="card-container">
+      {% for member in site.training %}
         <div class="card">
           <div class="card__image">
             <amp-img
@@ -28,8 +28,8 @@
             <a href="{{ member.url }}">Learn More</a>
           </div>
         </div>
-      </div>
       {% endfor %}
+      </div>
     </div>
 
     <amp-carousel class="tablet-down"
