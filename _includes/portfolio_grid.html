@@ -30,5 +30,32 @@
       </div>
     </div>
 
+    <amp-carousel class="tablet-down"
+      width="auto"
+      height="640"
+      type="slides"
+      layout="fixed-height">
+      {% for post in site.posts %}
+      <div class="card">
+        <div class="card__image">
+          <amp-img
+              noloading
+              height=289
+              width=400
+              layout="responsive"
+              src="img/portfolio/{{ post.thumbnail }}">
+          </amp-img>
+        </div>
+        <div class="card__content">
+          <h4 class="card__title">{{ post.title }}</h4>
+          <p>{{ post.subtitle }}</p>
+        </div>
+        <div class="card__action">
+          <a href="{{ post.title }}">Learn More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </amp-carousel>
+
   </div>
 </section>
