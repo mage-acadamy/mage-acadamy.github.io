@@ -49,14 +49,16 @@
       {% for member in site.people %}
       <div class="card">
         <div class="card__image">
-          <amp-img
+          <div class="box__image">
+            <amp-img
               noloading
               height="{{ member.height }}"
               width="{{ member.width }}"
               alt="{{ member.name }}"
               layout="responsive"
               src="img/team/{{ member.pic }}.jpg">
-          </amp-img>
+            </amp-img>
+          </div>
         </div>
         <div class="card__content">
           <h3 class="card__title">{{ member.name }}</h3>
