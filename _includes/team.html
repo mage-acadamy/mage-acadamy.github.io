@@ -3,15 +3,13 @@
   <div class="container">
     <div>
         <h1 class="blog__section-title">Our Amazing Team</h1>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
     </div>
 
     <div class="tablet-up">
       <div class="card-container">
       {% for member in site.people %}
       <div class="card">
-        <div class="card__image">
-          <div class="box__image">
+          <div class="card__image">
             <amp-img
             noloading
             height="{{ member.height }}"
