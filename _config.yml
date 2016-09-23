@@ -34,7 +34,7 @@ training:
 # Team names, titles and social links
 people:
 - name: Ray Bogman
-  pic: 1
+  pic: ray-bogman
   position: CTO / Magento Doctor
   height: 225
   width: 225
@@ -45,7 +45,7 @@ people:
       url: https://nl.linkedin.com/in/raybogman
 
 - name: Vladimir Kerkhoff
-  pic: 2
+  pic: vladimir-kerkhoff
   position: Lead Developer
   height: 225
   width: 225
@@ -56,7 +56,7 @@ people:
       url: /
 
 - name: Erik van Rijn
-  pic: 3
+  pic: erik-van-rijn
   position: Lead Developer
   height: 225
   width: 225
