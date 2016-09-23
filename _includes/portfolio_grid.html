@@ -7,10 +7,23 @@
 
     <div class="blog">
       {% for post in site.posts %}
-      <div class="blog__tabs">
-            <amp-img src="img/portfolio/{{ post.thumbnail }}" height="289" width="400" layout="responsive" class="img-responsive img-centered" alt=""></amp-img>
-            <h3 class="blog__title">{{ post.title }}</h3>
-            <div class="blog__subtitle">{{ post.subtitle }}</div>
+      <div class="card">
+        <div class="card__image">
+          <amp-img
+              noloading
+              height=289
+              width=400
+              layout=responsive
+              src="img/portfolio/{{ post.thumbnail }}">
+          </amp-img>
+        </div>
+        <div class="card__content">
+          <h4 class="card__title">{{ post.title }}</h4>
+          <p>{{ post.subtitle }}</p>
+        </div>
+        <div class="card__action">
+          <a href="{{ post.title }}">Learn More</a>
+        </div>
       </div>
       {% endfor %}
     </div>
