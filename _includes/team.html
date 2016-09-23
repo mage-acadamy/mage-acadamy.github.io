@@ -9,7 +9,9 @@
     <div class="blog">
       {% for member in site.people %}
       <div class="blog__tabs">
+          <div class="box__image">
             <amp-img src="img/team/{{ member.pic }}.jpg" height="{{ member.height }}" width="{{ member.width }}" layout="responsive" class="img-responsive img-circle" alt=""></amp-img>
+          </div>
             <h3 class="blog__title">{{ member.name }}</h3>
             <div class="blog__subtitle">{{ member.position }}</div>
             <ul class="list-inline social-buttons">
