@@ -7,62 +7,29 @@
     </div>
 
     <div class="tablet-up">
+      {% for member in site.training %}
       <div class="card-container">
         <div class="card">
           <div class="card__image">
             <amp-img
                 noloading
-                height=190
-                width=297
-                layout=responsive
-                src="/static/img/man.jpg">
+                height="{{ member.height }}"
+                width="{{ member.width }}"
+                alt="{{ member.name }}"
+                layout="responsive"
+                src="img/training/{{ member.pic }}.jpg">
             </amp-img>
           </div>
           <div class="card__content">
-            <h4 class="card__title">Magento 2 Merchant</h4>
-            <p>If you are new to AMP HTML, our technical introduction is a great place to get started and provides an overview of the project and how AMP HTML works.</p>
+            <h3 class="card__title">{{ member.name }}</h3>
+            <p>{{ member.description }}</p>
           </div>
           <div class="card__action">
-            <a href="/docs/get_started/about-amp.html">Learn More</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__image">
-            <amp-img
-                noloading
-                height=190
-                width=297
-                layout=responsive
-                src="/static/img/amp.jpg">
-            </amp-img>
-          </div>
-          <div class="card__content">
-            <h4 class="card__title">Magento 2 Webmaster</h4>
-            <p>Ready to build an AMP file? This tutorial will teach you how to create a basic AMP HTML page, stage it, test it, and get it ready for publication.</p>
-          </div>
-          <div class="card__action">
-            <a href="/docs/get_started/create.html">Get Started</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card__image">
-            <amp-img
-                noloading
-                height=190
-                width=297
-                layout=responsive
-                src="/static/img/code.jpg">
-            </amp-img>
-          </div>
-          <div class="card__content">
-            <h4 class="card__title">Magento 2 Developer</h4>
-            <p>If you'd like to dive deeper into AMP HTML, you can find all of the source code, code samples, and detailed documentation in our GitHub repository.</p>
-          </div>
-          <div class="card__action">
-            <a href="https://www.github.com/ampproject/amphtml">Visit Github</a>
+            <a href="{{ member.url }}">Learn More</a>
           </div>
         </div>
       </div>
+      {% endfor %}
     </div>
 
     <amp-carousel class="tablet-down"
