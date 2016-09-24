@@ -1,7 +1,7 @@
 ---
 title: Magento 2 Developer
 subtitle: Magento 2 Developer
-url: magento-2-developer
+link: magento-2-developer
 layout: default
 modal-id: 3
 date: 2014-07-16

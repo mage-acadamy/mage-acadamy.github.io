@@ -1,7 +1,7 @@
 ---
 title: Magento 2 Theming
 subtitle: Magento 2 Theming
-url: magento-2-theming
+link: magento-2-theming
 layout: default
 modal-id: 4
 date: 2014-07-15

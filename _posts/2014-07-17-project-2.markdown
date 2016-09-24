@@ -1,7 +1,7 @@
 ---
 title: Magento 2 Webmaster
 subtitle: Website Design
-url: magento-2-webmaster
+link: magento-2-webmaster
 layout: default
 modal-id: 2
 date: 2014-07-17
