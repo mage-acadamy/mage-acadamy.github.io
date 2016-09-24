@@ -1,11 +1,12 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Magento 2 Developer
+subtitle: Magento 2 Developer
+url: magento-2-developer
 layout: default
 modal-id: 3
 date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+img: magento-2-developer
+thumbnail: magento-2-developer
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap

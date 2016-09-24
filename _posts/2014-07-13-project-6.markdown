@@ -1,11 +1,12 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Magento 2 Security
+subtitle: Magento 2 Security
+url: magento-2-security
 layout: default
 modal-id: 6
 date: 2014-07-15
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: magento-2-security
+thumbnail: magento-2-security
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
