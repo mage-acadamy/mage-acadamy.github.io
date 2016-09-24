@@ -1,7 +1,7 @@
 ---
 title: Magento 2 Merchant
 subtitle: In the Magento 2 Merchant Training you learn the basis fundamentals how to manage your Magento 2 website.
-url: /magento-2-merchant
+url: magento-2-merchant
 layout: default
 modal-id: 1
 date: 2014-07-18
