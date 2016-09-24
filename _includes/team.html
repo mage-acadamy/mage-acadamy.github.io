@@ -28,7 +28,7 @@
             <ul class="list-inline social-buttons">
                 {% for network in member.social %}
                 <li>
-                    <a target="_blank" alt="{{ member.name }}" href="{{ network.url }}">
+                    <a target="_blank" title="{{ member.name }}" href="{{ network.url }}">
                         <i class="fa fa-{{ network.title }}"></i>
                     </a>
                 </li>
