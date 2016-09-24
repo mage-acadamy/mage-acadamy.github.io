@@ -1,11 +1,11 @@
 ---
-title: Escape
+title: Magento 2 Webmaster
 subtitle: Website Design
 layout: default
 modal-id: 2
 date: 2014-07-17
-img: escape.png
-thumbnail: escape-thumbnail.png
+img: magento-2-webmaster
+thumbnail: magento-2-webmaster
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
