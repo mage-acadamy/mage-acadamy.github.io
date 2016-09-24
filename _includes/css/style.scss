@@ -2439,6 +2439,11 @@ body.case-study {
   }
 }
 
+.list-inline>li {
+    display:inline-block;
+    padding-left:5px;
+    padding-right:5px}
+
 ul.social-buttons {
     margin-bottom: 0;
 }
@@ -2448,10 +2453,8 @@ ul.social-buttons li a {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
     background-color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -2461,5 +2464,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #fff;
 }
