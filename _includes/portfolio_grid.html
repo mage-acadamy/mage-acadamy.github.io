@@ -27,14 +27,17 @@
             <a on="tap:my-lightbox1" title="{{ member.name }}" role="button">Learn More</a>
           </div>
 
+          <amp-lightbox id="my-lightbox1" class="lightbox" layout="nodisplay" on="tap:my-lightbox.close" role="button" tabindex="1">
+            <div class="lightbox__container">
 
+              <div class="card__content">
+                <h4 class="card__title">{{ post.title }}</h4>
+                <p>{{ post.subtitle }}</p>
+              </div>
 
-              <amp-lightbox id="my-lightbox1" layout="nodisplay">
-                <div class="lightbox" on="tap:my-lightbox1.close" role="button" tabindex="0">
-                  <h1>Hello World!</h1>
-                </div>
-              </amp-lightbox>
-
+            </div>
+            <div class="lightbox__close" on="tap:my-lightbox1.close" role="button" tabindex="1"></div>
+          </amp-lightbox>
 
         </div>
       {% endfor %}
