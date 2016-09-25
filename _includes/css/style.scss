@@ -2450,3 +2450,31 @@ body.case-study {
   padding-top: 10px;
   text-align: center;
 }
+
+#contact {
+    background-color: #222;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contact .form-group {
+    margin-bottom: 25px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    padding: 20px;
+}
+
+#contact .form-group input.form-control {
+    height: auto;
+}
+
+#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
