@@ -3,3 +3,9 @@ layout: page
 title: magento-2-merchant
 permalink: /magento-2-merchant
 ---
+{% for post in site.posts %}
+<div class="card__content">
+  <h4 class="card__title">{{ post.title }}</h4>
+  <p>{{ post.subtitle }}</p>
+</div>
+{% endfor %}
