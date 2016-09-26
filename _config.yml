@@ -81,9 +81,11 @@ address:
 markdown: kramdown
 permalink: pretty
 
+sass:
+    style: compressed
+
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
