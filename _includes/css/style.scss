@@ -2457,24 +2457,24 @@ body.case-study {
   text-align: center;
 }
 
-#contact .form-group {
+.form-group {
     margin-bottom: 25px;
 }
 
-#contact .form-group input,
-#contact .form-group textarea {
+.form-group input,
+.form-group textarea {
     padding: 20px;
 }
 
-#contact .form-group input.form-control {
+.form-group input.form-control {
     height: auto;
 }
 
-#contact .form-group textarea.form-control {
+.form-group textarea.form-control {
     height: 236px;
 }
 
-#contact .form-control:focus {
+.form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
