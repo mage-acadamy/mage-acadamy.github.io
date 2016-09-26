@@ -12,21 +12,21 @@ google_analytics: UA—XXXXXXXX-X
 training:
 - name: Magento 2 Merchant
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /
+  url: /magento-2-merchant
   pic: magento-2-merchant
   height: 190
   width: 297
 
 - name: Magento 2 Webmaster
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /
+  url: /magento-2-webmaster
   pic: magento-2-webmaster
   height: 190
   width: 297
 
 - name: Magento 2 Developer
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /
+  url: /magento-2-developer
   pic: magento-2-developer
   height: 190
   width: 297
@@ -51,9 +51,9 @@ people:
   width: 297
   social:
     - title: twitter
-      url: /
+      url: https://twitter.com/vkerkhoff
     - title: linkedin
-      url: /
+      url: https://www.linkedin.com/in/vladimirkerkhoff
 
 - name: Erik van Rijn
   pic: erik-van-rijn
@@ -62,20 +62,15 @@ people:
   width: 297
   social:
     - title: twitter
-      url: /
+      url: https://twitter.com/evrijn
     - title: linkedin
-      url: /
+      url: https://www.linkedin.com/in/evrijn
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/raybogman
   - title: youtube
     url: /
-  - title: stack-overflow
-    url: /
-  - title: github
-    url: http://github.com/raybogman
+
 
 # Postal address (add as many lines as necessary)
 address:
@@ -92,7 +87,3 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
-#  - jekyll-multiple-languages
-
-#languages:          ['nl', 'en']
-#language_default:   'nl'
