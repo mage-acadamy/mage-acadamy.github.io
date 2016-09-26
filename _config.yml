@@ -84,9 +84,14 @@ permalink: pretty
 sass:
     style: compressed
 
+sitemap:
+  lastmod: 2016-09-26
+  priority: 0.7
+  changefreq: 'monthly'
+  exclude: 'yes'
+
 gems:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
