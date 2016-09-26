@@ -3,10 +3,11 @@ layout: page
 title: magento-2-merchant
 permalink: /magento-2-merchant
 ---
-<section id="portfolio" class="blade blade--blog">
-  <div class="container">
-    <div>
-        <h1 class="blog__section-title">Magento 2 Training Portfolio</h1>
-    </div>
-  </div>
-</section>  
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
