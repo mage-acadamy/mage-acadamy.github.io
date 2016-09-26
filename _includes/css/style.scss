@@ -431,15 +431,8 @@ section {
 }
 
 .blade--contact {
-  padding: 0;
   box-shadow: none;
   background-color: #e9e9e9;
-}
-
-.blade--benefits {
-  padding: 0;
-  box-shadow: none;
-  background-color: #fff;
 }
 
 .blade--blog {
@@ -462,9 +455,6 @@ section {
 @media only screen and (max-width: 956px) {
   .blade {
     padding: 60px 0;
-  }
-  .blade--benefits {
-    padding: 0;
   }
 }
 
