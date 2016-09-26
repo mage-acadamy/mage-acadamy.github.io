@@ -81,7 +81,7 @@ address:
 markdown: kramdown
 permalink: pretty
 
-sass:
+scss:
     style: compressed
 
 gems:
