@@ -2507,3 +2507,44 @@ body.case-study {
 	outline: none;
   padding: 13px 13px 13px 54px;
 }
+.success {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .success{
+  width:100%;
+  background-color:white;
+}
+
+.button button-primary{
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #3498db;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+.button button-primary:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+
+.submit:hover {
+	color: #3498db;
+}
