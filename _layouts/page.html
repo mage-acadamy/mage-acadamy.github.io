@@ -6,14 +6,12 @@
     {% include header.html %}
     <div class="wrap">
       <div class="content">
-        <ul>
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-      </li>
-    {% endfor %}
-  </ul>
+        {% for post in site.posts %}
+        <div class="card__content">
+          <h4 class="card__title">{{ post.title }}</h4>
+          <p>{{ post.subtitle }}</p>
+        </div>
+        {% endfor %}
       </div>
     </div>
     {% include footer.html %}
