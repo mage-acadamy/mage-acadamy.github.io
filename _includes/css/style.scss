@@ -2466,15 +2466,15 @@ body.case-study {
     padding: 20px;
 }
 
-.form-group input.form-control {
+.form-group input.data-input {
     height: auto;
 }
 
-.form-group textarea.form-control {
+.form-group textarea.data-input {
     height: 236px;
 }
 
-.form-control:focus {
+.data-input:focus {
     border-color: #fed136;
     box-shadow: none;
 }
