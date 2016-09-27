@@ -1,6 +1,6 @@
 ---
 layout: page
-title: magento-2-merchant
+title: Magento 2 Merchant Training
 permalink: /magento-2-merchant
 description: magento-2-merchant
 date: 2016-09-27
@@ -16,7 +16,6 @@ alt: image-alt
 
     <div class="tablet-up">
       <div class="card-container">
-      {% for post in site.posts %}
         <div class="card">
           <div class="card__image">
             <amp-img
@@ -37,7 +36,6 @@ alt: image-alt
             <a title="{{ member.name }}" href="{{ post.link }}">Learn More</a>
           </div>
         </div>
-      {% endfor %}
       </div>
     </div>
 
@@ -46,7 +44,6 @@ alt: image-alt
       height="640"
       type="slides"
       layout="fixed-height">
-      {% for post in site.posts %}
       <div class="card">
         <div class="card__image">
           <amp-img
@@ -65,7 +62,6 @@ alt: image-alt
           <a title="{{ member.name }}" href="{{ post.link }}">Learn More</a>
         </div>
       </div>
-      {% endfor %}
     </amp-carousel>
 
   </div>
