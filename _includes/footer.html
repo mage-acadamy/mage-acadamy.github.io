@@ -1,35 +1,31 @@
-    <footer>
-      <div class="container">
-        <div class="row">
+<footer>
+  <div class="container">
+    <div class="row">
 
-          <div class="four columns">
-            <a href="{{ site.url }}" class="tab header-title">
-              <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-              <span>{{ site.title }}</span>
-            </a>
-            </a>
-          </div>
-
-          <div class="four columns">
-              <ul class="list-inline social-buttons">
-                  {% for network in site.social %}
-                  <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
-                  {% endfor %}
-              </ul>
-          </div>
-
-          <div class="four columns">
-              <ul class="list-inline quicklinks">
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of Use</a></li>
-              </ul>
-          </div>
-
-        </div>
-
-
-        <div class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</div>
-
-
+      <div class="four columns">
+        <a href="{{ site.url }}" class="tab header-title">
+          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
+          <span>{{ site.title }}</span>
+        </a>
+        </a>
       </div>
-    </footer>
+
+      <div class="four columns">
+          <ul class="list-inline social-buttons">
+              {% for network in site.social %}
+              <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a></li>
+              {% endfor %}
+          </ul>
+      </div>
+
+      <div class="four columns">
+          <ul class="list-inline quicklinks">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Use</a></li>
+          </ul>
+      </div>
+
+    </div>
+    <div class="copyright">Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</div>
+  </div>
+</footer>
