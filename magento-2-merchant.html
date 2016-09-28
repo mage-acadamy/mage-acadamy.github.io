@@ -30,6 +30,18 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
                   <div class="box__inner">
                     <div class="box__content">
                       <p>{{ page.description }}</p>
+                      <div class="card">
+                        <div class="card__image">
+                          <amp-img
+                            noloading
+                            height=289
+                            width=400
+                            alt="{{ post.title }}"
+                            attribution="{{ post.title }}"
+                            layout=responsive
+                            src="img/training/{{ post.thumbnail }}.jpg">
+                          </amp-img>
+                        </div>
                     </div>
                   </div>
                 </div>
