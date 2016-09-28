@@ -20,22 +20,26 @@ alt: image-alt
             <div class="row">
               <div class="eight columns">
                 <div class="box">
-
-                    <p>{{ page.description }}</p>
-
+                  <div class="box__inner">
+                    <div class="box__content">
+                      <p>{{ page.description }}</p>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="four columns">
-                <div class="box">
-
+            <div class="four columns">
+              <div class="box">
+                <div class="box__inner">
+                  <div class="box__content">
                       <aside id="sidebar">
                         {% include sidebar.html %}
                       </aside>
-
+                  </div>
                 </div>
               </div>
+            </div>  
       </div>
     </div>
 
