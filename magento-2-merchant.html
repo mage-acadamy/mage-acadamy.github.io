@@ -1,12 +1,19 @@
 ---
 layout: page
 title: Magento 2 Merchant Training
+subtitle: In the Magento 2 Merchant Training you learn the basis fundamentals how to manage your Magento 2 website.
+link: magento-2-merchant
 permalink: /magento-2-merchant
-description: magento-2-merchant
+layout: default
+modal-id: 1
 date: 2016-09-27
 img: magento-2-merchant
 thumbnail: magento-2-merchant
 alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 ---
 <section id="portfolio" class="blade blade--blog">
   <div class="container">
@@ -34,7 +41,11 @@ alt: image-alt
                 <div class="box__inner">
                   <div class="box__content">
                       <aside id="sidebar">
-                        <p>{{ page.description }}</p>
+                        <ul class="list-inline quicklinks">
+                        	{% for post in site.posts %}
+                        			<li><a title="{{ post.link }}" href="{{ post.link }}">{{ post.title }}</a></li>
+                        	{% endfor %}
+                        </ul>
                       </aside>
                   </div>
                 </div>
