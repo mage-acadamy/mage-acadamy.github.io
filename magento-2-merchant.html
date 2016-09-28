@@ -44,10 +44,13 @@ description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At du
               <div class="box">
                 <div class="box__inner">
                   <div class="box__content">
+                    <div>
+                        <h3 class="blog__section-title">Training services</h3>
+                    </div>
                       <aside id="sidebar">
                         <ul class="list-inline quicklinks">
                         	{% for post in site.posts %}
-                        			<li><a title="{{ post.link }}" href="{{ post.link }}">{{ post.title }}</a></li>
+                        			<li><a title="{{ post.title }}" href="{{ post.link }}">{{ post.title }}</a></li>
                         	{% endfor %}
                         </ul>
                       </aside>
