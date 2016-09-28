@@ -14,55 +14,27 @@ alt: image-alt
         <h1 class="blog__section-title">{{ page.title }}</h1>
     </div>
 
-    <div class="tablet-up">
-      <div class="card-container">
-        <div class="card">
-          <div class="card__image">
-            <amp-img
-              noloading
-              height=289
-              width=400
-              alt="{{ post.title }}"
-              attribution="{{ post.title }}"
-              layout=responsive
-              src="img/training/{{ post.thumbnail }}.jpg">
-            </amp-img>
-          </div>
-          <div class="card__content">
-            <h4 class="card__title">{{ post.title }}</h4>
-            <p>{{ post.subtitle }}</p>
-          </div>
-          <div class="card__action">
-            <a title="{{ member.name }}" href="{{ post.link }}">Sign Up</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="row">
+      <div class="twelve columns">
 
-    <amp-carousel class="tablet-down"
-      width="auto"
-      height="640"
-      type="slides"
-      layout="fixed-height">
-      <div class="card">
-        <div class="card__image">
-          <amp-img
-              noloading
-              height=289
-              width=400
-              layout="responsive"
-              src="img/training/{{ post.thumbnail }}.jpg">
-          </amp-img>
+            <div class="row">
+              <div class="eight columns">
+                <div class="">
+
+                </div>
+              </div>
+
+              <div class="four columns">
+                <div class="">
+                  <aside id="sidebar">
+                    {% include sidebar.html %}
+                  </aside>
+                </div>
+              </div>
+
+              </div>
+            </div>
         </div>
-        <div class="card__content">
-          <h4 class="card__title">{{ post.title }}</h4>
-          <p>{{ post.subtitle }}</p>
-        </div>
-        <div class="card__action">
-          <a title="{{ member.name }}" href="{{ post.link }}">Learn More</a>
-        </div>
-      </div>
-    </amp-carousel>
 
   </div>
 </section>
