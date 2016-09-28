@@ -19,25 +19,29 @@ alt: image-alt
 
             <div class="row">
               <div class="eight columns">
-                <div class="box">
+                <div class="blog">
+                  <div class="blog__tabs">
 
-                    <p>{{ page.description }}</p>
+                    <h1 class="blog__section-title">{{ page.title }}</h1>
 
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="four columns">
-              <div class="box">
-
-                    <aside id="sidebar">
-                      {% include sidebar.html %}
-                    </aside>
+              <div class="four columns">
+                <div class="blog">
+                  <div class="blog">
+                    <div class="blog__tabs">
+                      <aside id="sidebar">
+                        {% include sidebar.html %}
+                      </aside>
+                    </div>  
+                </div>
+              </div>
 
               </div>
             </div>
+        </div>
 
-      </div>
-    </div>
   </div>
 </section>
