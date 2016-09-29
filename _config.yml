@@ -12,21 +12,21 @@ google_analytics: UA—XXXXXXXX-X
 training:
 - name: Magento 2 Merchant
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /magento-2-merchant
+  url: magento-2-merchant
   pic: magento-2-merchant
   height: 190
   width: 297
 
 - name: Magento 2 Webmaster
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /magento-2-webmaster
+  url: magento-2-webmaster
   pic: magento-2-webmaster
   height: 190
   width: 297
 
 - name: Magento 2 Developer
   description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: /magento-2-developer
+  url: magento-2-developer
   pic: magento-2-developer
   height: 190
   width: 297
