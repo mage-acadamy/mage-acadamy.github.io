@@ -1,5 +1,4 @@
 url: https://mage-academy.training/
-#baseurl: /agency-jekyll-theme/
 
 # Site settings
 title: Magento Training Academy
@@ -70,7 +69,6 @@ people:
 social:
   - title: youtube
     url: /
-
 
 # Postal address (add as many lines as necessary)
 address:
