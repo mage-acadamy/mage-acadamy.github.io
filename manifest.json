@@ -4,7 +4,7 @@ layout: null
 {
   "name": "{{ site.name }}",
   "short_name": "{{ site.title }}",
-  "start_url": "/",
+  "start_url": "{{ site.url }}",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#0379C4",
