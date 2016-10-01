@@ -5,66 +5,34 @@
       <h1>About Us</h1>
     </div>
 
-    <amp-carousel class="desktop-up"
-      height="500"
-      layout="flex-item"
-      type="slides">
-
+    <amp-carousel class="desktop-up" height="500" layout="flex-item" type="slides">
       <div class="boxes">
+        {% for member in site.data.about %}
         <div class="box">
-
           <div class="box__inner">
-
             <div class="box__content">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+              {{ member.description }}
             </div>
-
             <div class="box__footer">
               <div class="box__image">
-                <amp-img src="img/team/ray-bogman.jpg"
-                    width="90"
-                    height="90"
+                <amp-img
                     noloading
-                    alt="Tony Danker">
+                    height="{{ member.height }}"
+                    width="{{ member.width }}"
+                    alt="{{ member.name }}"
+                    layout="responsive"
+                    src="img/about/{{ member.pic }}.jpg">
                 </amp-img>
               </div>
               <div class="box__credit">
-                <h5 class="box__title">Richard Spooren</h5>
-                <div class="box__subtitle">CEO, SafeShops</div>
+                <h5 class="box__title">{{ member.name }}</h5>
+                <div class="box__subtitle">{{ member.subtitle }}</div>
               </div>
             </div>
-
+            {% endfor %}
           </div>
-
-        </div>
-        <div class="box">
-
-          <div class="box__inner">
-
-            <div class="box__content">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-            </div>
-
-            <div class="box__footer">
-              <div class="box__image">
-                <amp-img src="img/team/ray-bogman.jpg"
-                    width="90"
-                    height="90"
-                    noloading
-                    alt="David Besbris">
-                </amp-img>
-              </div>
-              <div class="box__credit">
-                <h5 class="box__title">Richard Spooren</h5>
-                <div class="box__subtitle">CEO, SafeShops</div>
-              </div>
-            </div>
-
-          </div>
-
         </div>
       </div>
-
     </amp-carousel>
 
     <amp-carousel class="single mobile-down"
