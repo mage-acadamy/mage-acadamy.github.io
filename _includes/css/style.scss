@@ -2176,6 +2176,28 @@ pre>code td {
     amp-sidebar nav nav li ul li a {
         font-size: 1em
     }
+    amp-sidebar nav+nav {
+        background: #f9f9f9;
+        padding-left: 12px;
+        padding-top: 12px;
+        box-sizing: border-box
+    }
+    amp-sidebar nav+nav h2 {
+        font-size: 16px;
+        font-style: italic;
+        margin-bottom: 0;
+        color: #424242
+    }
+    amp-sidebar nav+nav li {
+        font-size: 14px
+    }
+    amp-sidebar nav+nav li ul li.current span {
+        color: #0379C4;
+        font-weight: 400
+    }
+    amp-sidebar nav+nav li ul li a {
+        font-size: 1em
+    }
 }
 
 footer {
