@@ -469,6 +469,11 @@ section {
     max-width: 100%
 }
 
+.blade--about amp-carousel.desktop-up {
+    display: none;
+    visibility: hidden;
+}
+
 .blade--benefits {
     padding: 0;
     box-shadow: none;
