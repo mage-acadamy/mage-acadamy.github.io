@@ -33,5 +33,31 @@
       </div>
     </amp-carousel>
 
+    <amp-carousel class="single mobile-down" height="550" type="slides" layout="flex-item">
+      {% for member in site.data.about %}
+      <div class="box">
+        <div class="box__inner">
+          <div class="box__content">
+            {{ member.description }}
+          </div>
+          <div class="box__footer">
+            <div class="box__image">
+              <amp-img src="img/about/{{ member.pic }}.jpg"
+                  height="{{ member.height }}"
+                  width="{{ member.width }}"
+                  noloading
+                  alt="{{ member.name }}">
+              </amp-img>
+            </div>
+            <div class="box__credit">
+              <h5 class="box__title">{{ member.name }}</h5>
+              <div class="box__subtitle">{{ member.subtitle }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </amp-carousel>
+
   </div>
 </section>
