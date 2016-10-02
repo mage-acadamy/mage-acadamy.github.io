@@ -9,6 +9,7 @@
         {% for member in site.data.training %}
         <div class="card">
           <div class="card__image">
+            <a title="{{ member.name }}" href="{{ member.url }}">
             <amp-img
                 noloading
                 height="{{ member.height }}"
@@ -16,10 +17,10 @@
                 alt="{{ member.name }}"
                 layout="responsive"
                 src="img/training/{{ member.pic }}.jpg">
-            </amp-img>
+            </amp-img></a>
           </div>
           <div class="card__content">
-            <h3 class="card__title">{{ member.name }}</h3>
+            <h3 class="card__title"><a title="{{ member.name }}" href="{{ member.url }}">{{ member.name }}</a></h3>
             <p>{{ member.description }}</p>
           </div>
           <div class="card__action">
