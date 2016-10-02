@@ -1,7 +1,7 @@
 <section id="portfolio" class="blade blade--blog">
   <div class="container">
     <div>
-        <h1 class="blog__section-title">{{ page.title }}</h1>
+        <h1 class="blog__section-title"><a title="{{ page.name }}" href="{{ page.link }}">{{ page.title }}</a></h1>
     </div>
 
     <div class="row">
@@ -17,7 +17,9 @@
                         <p>{{ page.description }}</p>
                       </div>
                       <div class="four columns">
-                        <amp-img noloading height=96 width=150 alt="{{ page.title }}" attribution="{{ page.title }}" layout=responsive src="img/training/{{ page.thumbnail }}.jpg"></amp-img>
+                        <a title="{{ page.name }}" href="{{ page.link }}">
+                          <amp-img noloading height=96 width=150 alt="{{ page.title }}" attribution="{{ page.title }}" layout=responsive src="img/training/{{ page.thumbnail }}.jpg"></amp-img>
+                        </a>
                       </div>
                     </div>
                     <div class="card__action">
