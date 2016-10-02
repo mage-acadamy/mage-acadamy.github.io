@@ -7,41 +7,6 @@ email: training@supportdesk.nu
 description: "Magento 2 Training Academy. Learn Magento 2 now, sign up and get started with Magento 2"
 google_analytics: UA—XXXXXXXX-X
 
-# Team names, titles and social links
-people:
-- name: Ray Bogman
-  pic: ray-bogman
-  position: CTO / Magento Doctor
-  height: 297
-  width: 297
-  social:
-    - title: twitter
-      url: https://twitter.com/raybogman
-    - title: linkedin
-      url: https://nl.linkedin.com/in/raybogman
-
-- name: Vladimir Kerkhoff
-  pic: vladimir-kerkhoff
-  position: Lead Developer
-  height: 297
-  width: 297
-  social:
-    - title: twitter
-      url: https://twitter.com/vkerkhoff
-    - title: linkedin
-      url: https://www.linkedin.com/in/vladimirkerkhoff
-
-- name: Erik van Rijn
-  pic: erik-van-rijn
-  position: Lead Developer
-  height: 297
-  width: 297
-  social:
-    - title: twitter
-      url: https://twitter.com/evrijn
-    - title: linkedin
-      url: https://www.linkedin.com/in/evrijn
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: youtube
