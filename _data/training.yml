@@ -1,0 +1,41 @@
+- name: Magento 2 Merchant
+  description: "Magento 2 Merchant description"
+  url: magento-2-merchant
+  pic: magento-2-merchant
+  height: 190
+  width: 297
+
+- name: Magento 2 Webmaster
+  description: "Magento 2 Webmaster description"
+  url: magento-2-webmaster
+  pic: magento-2-webmaster
+  height: 190
+  width: 297
+
+- name: Magento 2 Developer
+  description: "Magento 2 Developer description"
+  url: magento-2-developer
+  pic: magento-2-developer
+  height: 190
+  width: 297
+
+- name: Magento 2 Theming
+  description: "Magento 2 Theming description"
+  url: magento-2-theming
+  pic: magento-2-theming
+  height: 190
+  width: 297
+
+- name: Magento 2 Security
+  description: "Magento 2 Security description"
+  url: magento-2-security
+  pic: magento-2-security
+  height: 190
+  width: 297
+
+- name: Magento 2 Performance
+  description: "Magento 2 Performance description"
+  url: magento-2-performance
+  pic: magento-2-performance
+  height: 190
+  width: 297

@@ -7,29 +7,6 @@ email: training@supportdesk.nu
 description: "Magento 2 Training Academy. Learn Magento 2 now, sign up and get started with Magento 2"
 google_analytics: UA—XXXXXXXX-X
 
-# Magento Training
-training:
-- name: Magento 2 Merchant
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: magento-2-merchant
-  pic: magento-2-merchant
-  height: 190
-  width: 297
-
-- name: Magento 2 Webmaster
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: magento-2-webmaster
-  pic: magento-2-webmaster
-  height: 190
-  width: 297
-
-- name: Magento 2 Developer
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
-  url: magento-2-developer
-  pic: magento-2-developer
-  height: 190
-  width: 297
-
 # Team names, titles and social links
 people:
 - name: Ray Bogman

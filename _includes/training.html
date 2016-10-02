@@ -7,7 +7,7 @@
 
     <div class="tablet-up">
       <div class="card-container">
-      {% for member in site.training %}
+      {% for member in site.data.training limit:3 %}
         <div class="card">
           <div class="card__image">
             <amp-img
@@ -36,7 +36,7 @@
       height="640"
       type="slides"
       layout="fixed-height">
-      {% for member in site.training %}
+      {% for member in site.data.training %}
       <div class="card">
         <div class="card__image">
           <amp-img
