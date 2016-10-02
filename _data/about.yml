@@ -1,20 +1,20 @@
 - name: My Customer feedback 1
   subtitle: This is a subtitle
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+  description: "This is my description 1"
   pic: 1
   height: 90
   width: 90
 
 - name: My Customer feedback 2
   subtitle: This is a subtitle
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+  description: "This is my description 2"
   pic: 2
   height: 90
   width: 90
 
 - name: My Customer feedback 3
   subtitle: This is a subtitle
-  description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim."
+  description: "This is my description 3"
   pic: 3
   height: 90
   width: 90
