@@ -15,13 +15,11 @@
             </div>
             <div class="box__footer">
               <div class="box__image">
-                <amp-img
-                    noloading
+                <amp-img src="img/about/{{ member.pic }}.jpg"
                     height="{{ member.height }}"
                     width="{{ member.width }}"
-                    alt="{{ member.name }}"
-                    layout="responsive"
-                    src="img/about/{{ member.pic }}.jpg">
+                    noloading
+                    alt="{{ member.name }}">
                 </amp-img>
               </div>
               <div class="box__credit">
