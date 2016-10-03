@@ -27,7 +27,7 @@
 
 - name: Magento 2 Theming
   id: 4
-  description: "Magento 2 Theming description"
+  description: In the Magento 2 Theming Training you learn how to implement your custom layout design on top of your Magento 2 website.
   url: magento-2-theming
   pic: magento-2-theming
   title-submenu: Training services
@@ -36,7 +36,7 @@
 
 - name: Magento 2 Security
   id: 5
-  description: "Magento 2 Security description"
+  description: In the Magento 2 Security Training you learn how to secure and manage your Magento 2 website.
   url: magento-2-security
   pic: magento-2-security
   title-submenu: Training services
@@ -45,7 +45,7 @@
 
 - name: Magento 2 Performance
   id: 6
-  description: "Magento 2 Performance description"
+  description: In the Magento 2 Performance Training you learn how to speed up and tune your Magento 2 website for desktop and mobile.
   url: magento-2-performance
   pic: magento-2-performance
   title-submenu: Training services
