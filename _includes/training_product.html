@@ -15,10 +15,10 @@
                     <div class="box__content">
                       <div class="eight columns">
                         <p>{{ page.description }}</p>
-                        <ul class="check">
+                        <ul class="fa-ul">
                           {% for member in site.data.training %}
                             {% for summary in member.summary %}
-                              <li class="fa fa-check" aria-hidden="true">{{ summary.title }}</li>
+                              <li><i class="fa-li fa fa-check" aria-hidden="true"></i>{{ summary.title }}</li>
                             {% endfor %}
                           {% endfor %}
                         </ul>
