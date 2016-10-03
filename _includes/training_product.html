@@ -15,6 +15,13 @@
                     <div class="box__content">
                       <div class="eight columns">
                         <p>{{ page.description }}</p>
+                        <ul class="check">
+                          {% for member in site.data.training %}
+                            {% for summary in member.summary %}
+                              <li>{{ summary.title }}</li>
+                            {% endfor %}
+                          {% endfor %}
+                        </ul>
                       </div>
                       <div class="four columns">
                         <a title="{{ page.title }}" href="{{ page.link }}">
