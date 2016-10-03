@@ -8,6 +8,10 @@
   description-middle: description-middle
   content-title: content-title
   description-bottom: description-bottom
+  related-title: Related training
+  related:
+    - title: Magento 2 Webmaster
+    - title: Magento 2 Theming
   url: magento-2-merchant
   pic: magento-2-merchant
   title-submenu: Training services
