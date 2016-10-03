@@ -28,7 +28,7 @@
                             {% for related in member.related %}
                               <li>
                                 <i class="fa-li fa fa-check" aria-hidden="true"></i>
-                                {% for member in site.data.training %}  
+                                {% for member in site.data.training limit:1 %}  
                                   <a title="{{ member.name }}" href="{{ member.url }}">{{ related.title }}</a>
                                 {% endfor %}
                               </li>
