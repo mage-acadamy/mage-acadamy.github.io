@@ -38,8 +38,8 @@
                     </div>
                       <aside id="sidebar">
                         <ul class="list-inline quicklinks">
-                        	{% for page in site.posts %}
-                        			<li><a title="{{ page.title }}" href="{{ page.link }}">{{ page.title }}</a></li>
+                          {% for member in site.data.training %}
+                        			<li><a title="{{ member.title }}" href="{{ member.url }}">{{ member.title }}</a></li>
                         	{% endfor %}
                         </ul>
                       </aside>
