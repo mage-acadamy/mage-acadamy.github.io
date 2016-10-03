@@ -9,7 +9,7 @@
 
 - name: Magento 2 Webmaster
   id: 2
-  description: "Magento 2 Webmaster description"
+  description: In the Magento 2 Webmaster Training you learn how to setup and manage the technical requirements of your Magento 2 website.
   url: magento-2-webmaster
   pic: magento-2-webmaster
   title-submenu: Training services
@@ -18,7 +18,7 @@
 
 - name: Magento 2 Developer
   id: 3
-  description: "Magento 2 Developer description"
+  description: In the Magento 2 Developer Training you learn how to build custom extentions on top of your Magento 2 website.
   url: magento-2-developer
   pic: magento-2-developer
   title-submenu: Training services
