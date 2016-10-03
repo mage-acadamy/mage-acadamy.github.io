@@ -1,10 +1,13 @@
 - name: Magento 2 Merchant
   id: 1
-  description: In the Magento 2 Merchant Training you learn the basis fundamentals how to manage your Magento 2 website.
+  description-top: In the Magento 2 Merchant Training you learn the basis fundamentals how to manage your Magento 2 website.
   summary:
     - title: listing 1
     - title: listing 2
     - title: listing 3
+  description-middle: description-middle
+  content-title: content-title
+  description-bottom: description-bottom
   url: magento-2-merchant
   pic: magento-2-merchant
   title-submenu: Training services
