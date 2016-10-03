@@ -26,7 +26,12 @@
                         <h3>{{ page.related-title }}</h3>
                         <ul class="fa-ul">
                             {% for related in member.related %}
-                              <li><i class="fa-li fa fa-check" aria-hidden="true"></i>{{ related.title }}</li>
+                              <li>
+                                <i class="fa-li fa fa-check" aria-hidden="true"></i>
+                                {% for member in site.data.training %}  
+                                  <a title="{{ member.name }}" href="{{ member.url }}">{{ related.title }}</a>
+                                {% endfor %}
+                              </li>
                             {% endfor %}
                         </ul>
                       </div>
