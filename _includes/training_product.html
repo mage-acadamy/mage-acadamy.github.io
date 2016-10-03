@@ -18,7 +18,7 @@
                         <ul class="check">
                           {% for member in site.data.training %}
                             {% for summary in member.summary %}
-                              <li>{{ summary.title }}</li>
+                              <li class="fa fa-check" aria-hidden="true">{{ summary.title }}</li>
                             {% endfor %}
                           {% endfor %}
                         </ul>
