@@ -1,5 +1,4 @@
 - name: Magento 2 Merchant
-  id: 1
   url: magento-2-merchant
   pic: magento-2-merchant
   title-submenu: Training services
@@ -7,7 +6,6 @@
   width: 297
 
 - name: Magento 2 Webmaster
-  id: 2
   url: magento-2-webmaster
   pic: magento-2-webmaster
   title-submenu: Training services
@@ -15,7 +13,6 @@
   width: 297
 
 - name: Magento 2 Developer
-  id: 3
   url: magento-2-developer
   pic: magento-2-developer
   title-submenu: Training services
@@ -23,7 +20,6 @@
   width: 297
 
 - name: Magento 2 Theming
-  id: 4
   url: magento-2-theming
   pic: magento-2-theming
   title-submenu: Training services
@@ -31,7 +27,6 @@
   width: 297
 
 - name: Magento 2 Security
-  id: 5
   url: magento-2-security
   pic: magento-2-security
   title-submenu: Training services
@@ -39,7 +34,6 @@
   width: 297
 
 - name: Magento 2 Performance
-  id: 6
   url: magento-2-performance
   pic: magento-2-performance
   title-submenu: Training services
