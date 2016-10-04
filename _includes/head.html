@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width,minimum-scale=1">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.description %}<meta name="description" content="{{page.description}}" />{% else %}<meta name="description" content="{{site.description}}" />{% endif %}
+  {% if page.meta %}<meta name="description" content="{{page.meta}}" />{% else %}<meta name="description" content="{{site.description}}" />{% endif %}
   <meta name="robots" content="{{ site.robots }}"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
