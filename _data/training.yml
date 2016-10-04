@@ -1,17 +1,5 @@
 - name: Magento 2 Merchant
   id: 1
-  description-top: In the Magento 2 Merchant Training you learn the basis fundamentals how to manage your Magento 2 website.
-  summary:
-    - title: listing 1
-    - title: listing 2
-    - title: listing 3
-  description-middle: description-middle
-  content-title: content-title
-  description-bottom: description-bottom
-  related-title: Related training
-  related:
-    - title: Magento 2 Webmaster
-    - title: Magento 2 Theming
   url: magento-2-merchant
   pic: magento-2-merchant
   title-submenu: Training services
@@ -20,7 +8,6 @@
 
 - name: Magento 2 Webmaster
   id: 2
-  description: In the Magento 2 Webmaster Training you learn how to setup and manage the technical requirements of your Magento 2 website.
   url: magento-2-webmaster
   pic: magento-2-webmaster
   title-submenu: Training services
@@ -29,7 +16,6 @@
 
 - name: Magento 2 Developer
   id: 3
-  description: In the Magento 2 Developer Training you learn how to build custom extentions on top of your Magento 2 website.
   url: magento-2-developer
   pic: magento-2-developer
   title-submenu: Training services
@@ -38,7 +24,6 @@
 
 - name: Magento 2 Theming
   id: 4
-  description: In the Magento 2 Theming Training you learn how to implement your custom layout design on top of your Magento 2 website.
   url: magento-2-theming
   pic: magento-2-theming
   title-submenu: Training services
@@ -47,7 +32,6 @@
 
 - name: Magento 2 Security
   id: 5
-  description: In the Magento 2 Security Training you learn how to secure and manage your Magento 2 website.
   url: magento-2-security
   pic: magento-2-security
   title-submenu: Training services
@@ -56,7 +40,6 @@
 
 - name: Magento 2 Performance
   id: 6
-  description: In the Magento 2 Performance Training you learn how to speed up and tune your Magento 2 website for desktop and mobile.
   url: magento-2-performance
   pic: magento-2-performance
   title-submenu: Training services
