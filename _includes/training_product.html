@@ -37,8 +37,24 @@
                           <amp-img noloading height=96 width=150 alt="{{ page.title }}" attribution="{{ page.title }}" layout=responsive src="img/training/{{ page.thumbnail }}.jpg"></amp-img>
                         </a>
                         <div>
-                          <h4><i class="fa fa-eur" aria-hidden="true"></i>{{ page.price }}</h4>
-                          <h4>{{ page.hours }}</h4>
+
+                          <div class="prices">
+                            <h5>Total Price</h5>
+                            <h2>
+                              <div class="price-box">
+                                <span class="regular-price">
+                                  <span class="price"><i class="fa fa-eur" aria-hidden="true"></i> {{ page.price }},-</span>
+                                </span>
+                              </div>
+                            </h2>
+                              <p><span class="additional">8 Training Units</span>Early Bird Discount&nbsp;- 15% off with 21 days advanced registration!&nbsp;</p>
+                          </div>
+
+                          <div class="length">
+                            <h5>Length</h5>
+                            <h2>{{ page.hours }} hours</h2>
+                          </div>
+
                         </div>
                       </div>
                     </div>
