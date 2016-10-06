@@ -2680,7 +2680,7 @@ body.case-study blockquote p {
   text-transform: uppercase;
   font-size: 16px
 }
-.container .content .toc {
+.container .box .toc {
     padding: 1em 1em;
     margin-left: 1em;
     margin-bottom: 1em;
@@ -2688,14 +2688,14 @@ body.case-study blockquote p {
 }
 
 @media only screen and (min-width: 1025px) {
-    .container .content .toc {
+    .container .box .toc {
         float: right;
         max-width: 30%
     }
 }
 
 @media only screen and (min-width: 1461px) {
-    .container .content .toc {
+    .container .box .toc {
         max-width: auto;
         position: absolute;
         right: -260px;
@@ -2703,10 +2703,10 @@ body.case-study blockquote p {
     }
 }
 
-.container .content .toc::before {
+.container .box .toc::before {
     content: "Contents"
 }
 
-.container .content .toc ~ h2::before {
+.container .box .toc ~ h2::before {
     display: none
 }
