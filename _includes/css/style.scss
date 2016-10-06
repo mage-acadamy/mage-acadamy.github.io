@@ -2680,3 +2680,33 @@ body.case-study blockquote p {
   text-transform: uppercase;
   font-size: 16px
 }
+.main .content .toc {
+    padding: 1em 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    border-left: 4px solid #4b91ef
+}
+
+@media only screen and (min-width: 1025px) {
+    .main .content .toc {
+        float: right;
+        max-width: 30%
+    }
+}
+
+@media only screen and (min-width: 1461px) {
+    .main .content .toc {
+        max-width: auto;
+        position: absolute;
+        right: -260px;
+        width: 220px
+    }
+}
+
+.main .content .toc::before {
+    content: "Contents"
+}
+
+.main .content .toc ~ h2::before {
+    display: none
+}
