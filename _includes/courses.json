@@ -1,0 +1,11 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Course",
+  "name": "{{ page.title }}",
+  "description": "{{ page.meta }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "sameAs": "{{ site.url }}"
+  }
+}
