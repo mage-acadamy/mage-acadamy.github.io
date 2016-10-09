@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org",
+  "@type": "VideoObject",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "thumbnailUrl": "{{ site.url }}/youtube-thumbnail.jpg",
+  "uploadDate": "2016-10-07T08:00:00+08:00",
+  "duration": "PT1M38S",
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/img/logo.jpg",
+      "width": 270,
+      "height": 45
+    }
+  },
+  "contentUrl": "https://www.youtube.com/watch?v=y46ETJzefV4",
+  "embedUrl": "https://www.youtube.com/watch?v=y46ETJzefV4",
+  "interactionCount": "9"
+}
