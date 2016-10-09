@@ -22,8 +22,8 @@
   },
   "image": {
     "@type": "ImageObject",
-    "url": "{{ site.url }}img/logo.jpg",
-    "height": 270,
-    "width": 45
+    "url": "{{ site.url }}img/magento-2-training-thumbnail.jpg",
+    "height": 780,
+    "width": 1440
   }
 }
