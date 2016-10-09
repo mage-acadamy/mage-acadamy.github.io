@@ -27,3 +27,10 @@
     "width": 1440
   }
 }
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "alternateName": "{{ site.title }}",
+  "url": "{{ site.url }}"
+}
