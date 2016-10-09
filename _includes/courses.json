@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Course",
-  "name": "{{ page.title }}",
+  "name": "{% if page.title %}{{ page.title }}{% else %}{{site.title}}{% endif %}",
   "description": "{% if page.meta %}{{ page.meta }}{% else %}{{site.description}}{% endif %}",
   "provider": {
     "@type": "Organization",
