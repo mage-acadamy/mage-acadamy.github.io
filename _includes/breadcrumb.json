@@ -3,7 +3,6 @@
  "@type": "BreadcrumbList",
  "itemListElement":
  [
-{% for page in site.pages %}
   {
    "@type": "ListItem",
    "position": 1,
@@ -12,8 +11,6 @@
     "@id": "{% if page.url %}{{ page.url | escape }}{% else %}{{ site.url | escape }}{% endif %}",
     "name": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}"
     }
-  },
-  {% endfor %}
-
+  }
  ]
 }
