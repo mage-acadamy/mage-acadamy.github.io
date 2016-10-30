@@ -33,9 +33,15 @@
                 <div class="twelve columns">
                   <div class="submit">
                     <input type="submit" value="Sign Up" id="button-submit">
-                    <div class="success"></div>
+                    <input type="reset" value="Reset" id="button-reset">
                   </div>
                 </div>
+              </div>
+              <div submit-success>
+                <template type="amp-mustache">Success! Thanks for applying, we will get back to you shortly!</template>
+              </div>
+              <div submit-error>
+                <template type="amp-mustache">Something when wrong, sorry. Please submit again!</template>
               </div>
             </form>
         </div>
