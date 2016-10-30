@@ -7,7 +7,7 @@
 
       <div class="row">
         <div class="twelve columns">
-            <form method="post" action-xhr="https://mail.mage-academy.training" target="_top">
+            <form method="post" action-xhr="https://mail.mage-academy.training" target="_blank">
               <div class="row">
                 <div class="six columns">
                   <div class="control-group form-group">
@@ -38,10 +38,10 @@
                 </div>
               </div>
               <div submit-success>
-                <template type="amp-mustache">Success! Thanks for applying, we will get back to you shortly!</template>
+                <template type="amp-mustache">Success! Thanks {{name}} for applying, we will get back to you shortly!</template>
               </div>
               <div submit-error>
-                <template type="amp-mustache">Something when wrong, sorry. Please submit again!</template>
+                <template type="amp-mustache">Something when wrong {{name}}, sorry! Please submit again!</template>
               </div>
             </form>
         </div>
