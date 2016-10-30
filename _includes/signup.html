@@ -9,10 +9,12 @@
         <div class="twelve columns">
             <form method="post" action-xhr="https://mail.mage-academy.training" target="_top">
               <div class="row">
-                <div class="six columns">
+                <div class="twelve columns">
                   <div class="control-group form-group">
-                    <input type="checkbox" name="training" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Please choose your training." required value="Training">Training</input>
+                    <input type="checkbox" name="training" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Please choose your training." required value="Training">{{ page.title}}</input>
                   </div>
+                </div>
+                <div class="six columns">
                   <div class="control-group form-group">
                     <input type="text" name="name" class="validate[required,custom[onlyLetter],length[0,100]] data-input" placeholder="Please enter your name." required>
                   </div>
